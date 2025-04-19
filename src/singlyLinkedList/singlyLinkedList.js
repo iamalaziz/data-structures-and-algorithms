@@ -1,7 +1,6 @@
 /**
  * ListNode
- *
- * @param {any} val - The value of the node
+ * @param {any} val The value of the node
  */
 class ListNode {
     constructor(val) {
@@ -12,8 +11,7 @@ class ListNode {
 
 /**
  * SinglyLinkedList
- *
- * @param {Array} array - The array of values to initialize the list with
+ * @param {Array} array The array of values to initialize the list with
  */
 class SinglyLinkedList {
     constructor(array) {
@@ -29,7 +27,6 @@ class SinglyLinkedList {
     }
     /**
      * Check if the list is empty
-     *
      * @returns {boolean} - True if the list is empty, false otherwise
      */
     isEmpty() {
@@ -38,9 +35,8 @@ class SinglyLinkedList {
 
     /**
      * Add a new node to the end of the list
-     *
-     * @param {any} value - The value of the node
-     * @returns {SinglyLinkedList} - The list itself
+     * @param {any} value The value of the node
+     * @returns {SinglyLinkedList} The list itself
      */
     push(value) {
         let newNode = new ListNode(value);
@@ -57,7 +53,6 @@ class SinglyLinkedList {
 
     /**
      * Remove the last node from the list
-     *
      * @returns {any} - The value of the removed node
      */
     pop() {
@@ -80,7 +75,6 @@ class SinglyLinkedList {
 
     /**
      * Remove the first node from the list
-     *
      * @returns {any} - The value of the removed node
      */
     shift() {
@@ -96,9 +90,8 @@ class SinglyLinkedList {
 
     /**
      * Add a new node to the beginning of the list
-     *
-     * @param {any} value - The value of the node
-     * @returns {SinglyLinkedList} - The list itself
+     * @param {any} value The value of the node
+     * @returns {SinglyLinkedList} The list itself
      */
     unshift(value) {
         let newNode = new ListNode(value);
@@ -115,9 +108,8 @@ class SinglyLinkedList {
 
     /**
      * Get the node at a specific index
-     *
-     * @param {number} index - The index of the node
-     * @returns {ListNode} - The node at the specified index
+     * @param {number} index The index of the node
+     * @returns {ListNode} The node at the specified index
      */
     get(index) {
         if (index < 0 || index >= this.size) return null;
@@ -132,10 +124,9 @@ class SinglyLinkedList {
 
     /**
      * Set the value of a node at a specific index
-     *
-     * @param {number} index - The index of the node
-     * @param {any} value - The value of the node
-     * @returns {boolean} - True if the value was set, false otherwise
+     * @param {number} index The index of the node
+     * @param {any} value The value of the node
+     * @returns {boolean} True if the value was set, false otherwise
      */
     set(index, val) {
         let node = this.get(index);
@@ -148,10 +139,9 @@ class SinglyLinkedList {
 
     /**
      * Add a node in into certain position
-     *
-     * @param {number} index - The index of the node
-     * @param {any} value - The value of the node
-     * @returns {boolean} - True if the node was added, false otherwise
+     * @param {number} index The index of the node
+     * @param {any} value The value of the node
+     * @returns {boolean} True if the node was added, false otherwise
      */
     insert(index, value) {
         if (index < 0 || index >= this.size) return false;
@@ -177,9 +167,8 @@ class SinglyLinkedList {
 
     /**
      * Remove a node from the list
-     *
-     * @param {number} index - The index of the node
-     * @returns {any} - The value of the removed node
+     * @param {number} index The index of the node
+     * @returns {any} The value of the removed node
      */
     remove(index) {
         if (index < 0 || index >= this.size) return undefined;
@@ -194,7 +183,6 @@ class SinglyLinkedList {
 
     /**
      * Reverse the list
-     *
      * @returns {SinglyLinkedList} - The reversed list
      */
     reverse() {

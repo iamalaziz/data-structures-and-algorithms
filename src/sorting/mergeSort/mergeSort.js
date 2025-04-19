@@ -1,8 +1,8 @@
 /**
  * Merges two arrays.
- * @param {Array} arr1 an array of numbers to merge.
- * @param {Array} arr2 an array of numbers to merge.
- * @param {Function} comparator a function to compare two elements.
+ * @param {Array} arr1 An array of numbers to merge.
+ * @param {Array} arr2 An array of numbers to merge.
+ * @param {Function} comparator A function to compare two elements.
  * @returns Merged array.
  */
 const merge = (arr1, arr2, comparator) => {
@@ -46,8 +46,8 @@ const merge = (arr1, arr2, comparator) => {
  *
  * Space complexity: O(n)
  *
- * @param {Array} arr an array of numbers to sort.
- * @param {Function} comparator a function to compare two elements.
+ * @param {Array} arr An array of numbers to sort.
+ * @param {Function} comparator A function to compare two elements.
  * @returns Sorted array.
  */
 const mergeSort = (arr, comparator) => {

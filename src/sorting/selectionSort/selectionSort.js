@@ -1,7 +1,7 @@
 /**
  * Sorts an array with `Selection sorting` algorithm.
- * @param {Array} array an array of numbers to sort.
- * @param {function} comparator a function that compares two values.
+ * @param {Array} array An array of numbers to sort.
+ * @param {function} comparator A function that compares two values.
  * @returns Sorted array.
  */
 function selectionSort(array, comparator) {

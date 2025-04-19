@@ -1,8 +1,7 @@
 /**
  * Breadth-First Search
- *
- * @param {Node} root - The root node of the tree
- * @returns {Array} - The array of visited nodes
+ * @param {Node} root The root node of the tree
+ * @returns {Array} The array of visited nodes
  */
 const BFS = (root) => {
     if (!root) return [];

@@ -1,7 +1,6 @@
 /**
  * Node class for the binary search tree
- *
- * @param {any} val - The value of the node
+ * @param {any} val The value of the node
  */
 class Node {
     constructor(val) {
@@ -13,8 +12,7 @@ class Node {
 
 /**
  * Binary search tree class
- *
- * @param {Node} root - The root node of the tree
+ * @param {Node} root The root node of the tree
  */
 class BinarySearchTree {
     constructor() {
@@ -23,7 +21,6 @@ class BinarySearchTree {
 
     /**
      * Insert a new node into the tree
-     *
      * @param {number} value - The value of the node
      * @returns {BinarySearchTree} - The tree itself
      */
@@ -51,7 +48,6 @@ class BinarySearchTree {
 
     /**
      * Find a node in the tree
-     *
      * @param {number} value - The value of the node
      * @returns {Node} - The node itself
      */

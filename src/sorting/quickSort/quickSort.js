@@ -4,11 +4,11 @@
  * Time Complexity: Common - O(n log n), (O(n^2) - when the pivot is the smallest or largest element)
  * Space Complexity: O(log n)
  * 
- * @param {Array} array - The array to sort
- * @param {Function} comparator - The comparator function
- * @param {Number} left - The left index of the array
- * @param {Number} right - The right index of the array
- * @returns {Array} - The sorted array
+ * @param {Array} array The array to sort
+ * @param {Function} comparator The comparator function
+ * @param {Number} left The left index of the array
+ * @param {Number} right The right index of the array
+ * @returns {Array} The sorted array
  */
 function quickSort(array, comparator = (a, b) => a - b, left = 0, right = array.length - 1) {
     if (left < right) {
@@ -29,12 +29,11 @@ console.log(quickSort([4, 8, 2, 1, 5, 7, 6, 3], (a, b) => b - a));
 
 /**
  * Pivot. Helper function to place the pivot element in the correct position.
- * 
- * @param {Array} array - The array to sort
- * @param {Function} comparator - The comparator function
- * @param {Number} start - The start index of the array
- * @param {Number} end - The end index of the array
- * @returns {Number} - The index of the pivot element
+ * @param {Array} array The array to sort
+ * @param {Function} comparator The comparator function
+ * @param {Number} start The start index of the array
+ * @param {Number} end The end index of the array
+ * @returns {Number} The index of the pivot element
  */
 function pivot(array, comparator, start = 0, end = array.length - 1) {
     let pivot = array[start];

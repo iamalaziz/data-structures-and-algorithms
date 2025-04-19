@@ -1,7 +1,7 @@
 /**
  * Sorts an array with `Insertion sorting` algorithm.
- * @param {Array} array an array of numbers to sort.
- * @param {Function} comparator a function to compare two elements.
+ * @param {Array} array An array of numbers to sort.
+ * @param {Function} comparator A function to compare two elements.
  * @returns Sorted array.
  */
 function insertionSort(array, comparator) {

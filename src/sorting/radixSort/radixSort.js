@@ -9,7 +9,7 @@ import { mostDigits } from './mostDigits.js'
  * 
  * Space Complexity: O(n + k) - n is the number of elements, k is the number of digits.
  * 
- * @param {number[]} nums - The array of numbers to sort.
+ * @param {number[]} nums The array of numbers to sort.
  * @returns {number[]} The sorted array.
  */
 function radixSort(nums) {

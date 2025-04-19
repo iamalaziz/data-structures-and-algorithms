@@ -2,8 +2,7 @@ import { digitCount } from "./digitCount.js";
 
 /**
  * Get the number of digits in the largest number in an array.
- * 
- * @param {number[]} array - The array to get the largest number of digits from.
+ * @param {number[]} array The array to get the largest number of digits from.
  * @returns {number} The number of digits in the largest number in the array.
  */
 export function mostDigits(array){

@@ -1,7 +1,6 @@
 /**
  * Reverses a string using recursion.
- *
- * @param {string} str - The string to reverse.
+ * @param {string} str The string to reverse.
  * @returns {string} The reversed string.
  */
 const getReverse = (str) => {

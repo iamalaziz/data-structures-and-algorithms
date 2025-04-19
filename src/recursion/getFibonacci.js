@@ -1,7 +1,6 @@
 /**
  * Calculates the nth number in the Fibonacci sequence.
- *
- * @param {number} n - The position in the Fibonacci sequence.
+ * @param {number} n The position in the Fibonacci sequence.
  * @returns {number} The nth number in the Fibonacci sequence.
  */
 const getFibonacci = (n) => {

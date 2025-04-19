@@ -1,8 +1,7 @@
 /**
  * Checks if a string is a palindrome.
- *
- * @param {string} str - The string to check.
- * @param {number} order - The order of the string.
+ * @param {string} str The string to check.
+ * @param {number} order The order of the string.
  * @returns {boolean} True if the string is a palindrome, false otherwise.
  */
 const isPalindrome = (str, order = 0) => {

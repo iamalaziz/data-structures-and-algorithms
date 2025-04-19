@@ -1,8 +1,7 @@
 /**
  * Depth-First Search: Pre-Order
- *
- * @param {Node} root - The root node of the tree
- * @returns {Array} - The array of visited nodes
+ * @param {Node} root The root node of the tree
+ * @returns {Array} The array of visited nodes
  */
 const DFSPreOrder = (root) => {
     const data = [];
@@ -17,9 +16,8 @@ const DFSPreOrder = (root) => {
 
 /**
  * Depth-First Search: Post-Order
- *
- * @param {Node} root - The root node of the tree
- * @returns {Array} - The array of visited nodes
+ * @param {Node} root The root node of the tree
+ * @returns {Array} The array of visited nodes
  */
 const DFSPostOrder = (root) => {
     const data = [];
@@ -34,9 +32,8 @@ const DFSPostOrder = (root) => {
 
 /**
  * Depth-First Search: In-Order
- *
- * @param {Node} root - The root node of the tree
- * @returns {Array} - The array of visited nodes
+ * @param {Node} root The root node of the tree
+ * @returns {Array} The array of visited nodes
  */
 const DFSInOrder = (root) => {
     const data = [];

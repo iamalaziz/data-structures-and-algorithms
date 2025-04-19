@@ -1,8 +1,7 @@
 /**
  * Get the digit at a specific place in a number.
- * 
- * @param {number} num - The number to get the digit from.
- * @param {number} i - The place to get the digit from.
+ * @param {number} num The number to get the digit from.
+ * @param {number} i The place to get the digit from.
  * @returns {number} The digit at the specified place.
  */
 export function getDigit(num, i) {

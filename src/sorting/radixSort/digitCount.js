@@ -1,7 +1,7 @@
 /**
  * Count the number of digits in a number.
  * 
- * @param {number} num - The number to count the digits of.
+ * @param {number} num The number to count the digits of.
  * @returns {number} The number of digits in the number.
  */
 export function digitCount(num) {
